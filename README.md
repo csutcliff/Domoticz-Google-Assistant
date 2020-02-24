@@ -9,7 +9,7 @@ Based on Pawcio's script at [Domoticz Forum](https://www.domoticz.com/forum/view
 
 Required:
 - public url
-- python >= 3.5
+- python 3.7 or above
 - Make local deployment available trough HTTPS with valid certificate with one below:
   - SSL with own domain or dynamic DNS, require ssl key and ssl certficate
   - Use ngrok for a secure SSL tunnel with valid public HTTPS URL
