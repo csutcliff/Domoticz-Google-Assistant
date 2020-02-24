@@ -33,7 +33,7 @@ sed 's/#.*//' ${INSTALL_DIR}/requirements/system-requirements.txt | xargs sudo a
 cd /home/${USER}/
 
 VER=$(python3 -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
-if [ "$VER" -lt "35" ]; then
+if [ "$VER" -lt "37" ]; then
     echo " Domoticz-Google-Assistant requires python 3.5 or greater"
 	echo ""
     exit 1
