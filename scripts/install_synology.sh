@@ -37,8 +37,8 @@ if ! hash python3; then
     exit 1
 fi
 ver=$(python3 -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
-if [ "$ver" -lt "35" ]; then
-    echo " $NAME requires python 3.5 or greater"
+if [ "$ver" -lt "37" ]; then
+    echo " $NAME requires python 3.7 or greater"
 	echo ""
     exit 1
 fi
