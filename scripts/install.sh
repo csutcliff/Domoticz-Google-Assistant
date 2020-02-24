@@ -34,7 +34,7 @@ cd /home/${USER}/
 
 VER=$(python3 -V 2>&1 | sed 's/.* \([0-9]\).\([0-9]\).*/\1\2/')
 if [ "$VER" -lt "37" ]; then
-    echo " Domoticz-Google-Assistant requires python 3.5 or greater"
+    echo " Domoticz-Google-Assistant requires python 3.7 or greater"
 	echo ""
     exit 1
 fi
